@@ -1,0 +1,7 @@
+$SPARK_HOME/ec2/spark-ec2 --region=eu-west-1 stop genecluster
+
+source ~/.secrets/awskeys.sh
+$SPARK_HOME/ec2/spark-ec2 -i $IRELAND_PEM --region=eu-west-1 start genecluster
+
+$SPARK_HOME/ec2/spark-ec2 --region=eu-west-1 destroy genecluster
+

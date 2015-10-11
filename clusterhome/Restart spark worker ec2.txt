@@ -1,0 +1,9 @@
+
+
+
+WORKER_IP=...
+MASTER_URL=spark://...:7077
+
+ssh $WORKER_IP
+cd /root/spark/sbin/
+./start-slave.sh 0 $MASTER_URL

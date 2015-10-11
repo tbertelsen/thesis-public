@@ -1,0 +1,14 @@
+2048 on 24
+Round 1 of 3.
+6821440 / 4037602 = 168 % gene pairs analyzed
+Round 2 of 3.
+6821499 / 4037607 = 168 % gene pairs analyzed
+Round 3 of 3.
+6821672 / 4037595 = 168 % gene pairs analyzed
+
+
+cores = 128
+Meta(HMP253.2048000.fa,128,false,false,0,80.0,1.0)
+Warm up                        Done in 0.00 s.
+Round 1 of 1.
+10328841 / 4038601 = 255 % gene pairs analyzed
