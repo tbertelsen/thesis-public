@@ -1,4 +1,4 @@
 #!/bin/bash
-#$ -m base -M tobias.bertelsen@gmail.com
+#$ -m base -M MYEMAIL@gmail.com
 
 printenv | sort
